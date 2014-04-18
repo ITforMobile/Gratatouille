@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF420562184A454000F9B7AE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF420560184A454000F9B7AE /* 1.png */; };
+		BF420563184A454000F9B7AE /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = BF420561184A454000F9B7AE /* 5.png */; };
+		BF42056B184AB43F00F9B7AE /* qualityofservice.png in Resources */ = {isa = PBXBuildFile; fileRef = BF42056A184AB43F00F9B7AE /* qualityofservice.png */; };
+		BF42056D184ABC5A00F9B7AE /* happy-face.png in Resources */ = {isa = PBXBuildFile; fileRef = BF42056C184ABC5A00F9B7AE /* happy-face.png */; };
+		BF42056F184ABC8A00F9B7AE /* waitersm.png in Resources */ = {isa = PBXBuildFile; fileRef = BF42056E184ABC8A00F9B7AE /* waitersm.png */; };
+		BF82365918C5719000B9C1D9 /* KBmobile2App.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82365818C5719000B9C1D9 /* KBmobile2App.png */; };
+		BF82365D18C5766800B9C1D9 /* 1inch2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF82365C18C5766800B9C1D9 /* 1inch2.png */; };
+		BF91652B184821E50034DBA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91652A184821E50034DBA1 /* Foundation.framework */; };
+		BF91652D184821E50034DBA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91652C184821E50034DBA1 /* CoreGraphics.framework */; };
+		BF91652F184821E50034DBA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91652E184821E50034DBA1 /* UIKit.framework */; };
+		BF916531184821E50034DBA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF916530184821E50034DBA1 /* CoreData.framework */; };
+		BF916537184821E50034DBA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF916535184821E50034DBA1 /* InfoPlist.strings */; };
+		BF916539184821E50034DBA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF916538184821E50034DBA1 /* main.m */; };
+		BF91653D184821E50034DBA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91653C184821E50034DBA1 /* AppDelegate.m */; };
+		BF916540184821E50034DBA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF91653E184821E50034DBA1 /* Main.storyboard */; };
+		BF916543184821E50034DBA1 /* Gratatouille.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF916541184821E50034DBA1 /* Gratatouille.xcdatamodeld */; };
+		BF916546184821E50034DBA1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF916545184821E50034DBA1 /* MainViewController.m */; };
+		BF916549184821E50034DBA1 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF916548184821E50034DBA1 /* FlipsideViewController.m */; };
+		BF91654B184821E50034DBA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF91654A184821E50034DBA1 /* Images.xcassets */; };
+		BF916552184821E50034DBA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF916551184821E50034DBA1 /* XCTest.framework */; };
+		BF916553184821E50034DBA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91652A184821E50034DBA1 /* Foundation.framework */; };
+		BF916554184821E50034DBA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF91652E184821E50034DBA1 /* UIKit.framework */; };
+		BF916555184821E50034DBA1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF916530184821E50034DBA1 /* CoreData.framework */; };
+		BF91655D184821E50034DBA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF91655B184821E50034DBA1 /* InfoPlist.strings */; };
+		BF91655F184821E50034DBA1 /* GratatouilleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF91655E184821E50034DBA1 /* GratatouilleTests.m */; };
+		BF99F8C918C5694500BB35D9 /* gratback2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF99F8C818C5694500BB35D9 /* gratback2.png */; };
+		BFD255A0184BC41400DB23DD /* gratback2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD2559F184BC41400DB23DD /* gratback2.png */; };
+		BFD255A2184BF2BB00DB23DD /* Gratatouille_head2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD255A1184BF2BB00DB23DD /* Gratatouille_head2.png */; };
+		BFD255A4184BF41800DB23DD /* qualityofservice2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD255A3184BF41800DB23DD /* qualityofservice2.png */; };
+		BFD255A6184BF95D00DB23DD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD255A5184BF95D00DB23DD /* 3.png */; };
+		BFD255A8184BFDA700DB23DD /* gold button.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD255A7184BFDA700DB23DD /* gold button.png */; };
+		BFF32920184B807400265EFE /* Gratatouille_head.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF3291F184B807400265EFE /* Gratatouille_head.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF916556184821E50034DBA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF91651F184821E40034DBA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF916526184821E40034DBA1;
+			remoteInfo = Gratatouille;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF420560184A454000F9B7AE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BF420561184A454000F9B7AE /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		BF42056A184AB43F00F9B7AE /* qualityofservice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qualityofservice.png; sourceTree = "<group>"; };
+		BF42056C184ABC5A00F9B7AE /* happy-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happy-face.png"; sourceTree = "<group>"; };
+		BF42056E184ABC8A00F9B7AE /* waitersm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waitersm.png; sourceTree = "<group>"; };
+		BF82365818C5719000B9C1D9 /* KBmobile2App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KBmobile2App.png; sourceTree = "<group>"; };
+		BF82365C18C5766800B9C1D9 /* 1inch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1inch2.png; sourceTree = "<group>"; };
+		BF916527184821E50034DBA1 /* Gratatouille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratatouille.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF91652A184821E50034DBA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF91652C184821E50034DBA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF91652E184821E50034DBA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF916530184821E50034DBA1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BF916534184821E50034DBA1 /* Gratatouille-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gratatouille-Info.plist"; sourceTree = "<group>"; };
+		BF916536184821E50034DBA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF916538184821E50034DBA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF91653A184821E50034DBA1 /* Gratatouille-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gratatouille-Prefix.pch"; sourceTree = "<group>"; };
+		BF91653B184821E50034DBA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF91653C184821E50034DBA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF91653F184821E50034DBA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF916542184821E50034DBA1 /* Gratatouille.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gratatouille.xcdatamodel; sourceTree = "<group>"; };
+		BF916544184821E50034DBA1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BF916545184821E50034DBA1 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BF916547184821E50034DBA1 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		BF916548184821E50034DBA1 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		BF91654A184821E50034DBA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF916550184821E50034DBA1 /* GratatouilleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratatouilleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF916551184821E50034DBA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF91655A184821E50034DBA1 /* GratatouilleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GratatouilleTests-Info.plist"; sourceTree = "<group>"; };
+		BF91655C184821E50034DBA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF91655E184821E50034DBA1 /* GratatouilleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GratatouilleTests.m; sourceTree = "<group>"; };
+		BF99F8C818C5694500BB35D9 /* gratback2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gratback2.png; path = Gratatouille/gratback2.png; sourceTree = "<group>"; };
+		BFD2559F184BC41400DB23DD /* gratback2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gratback2.png; sourceTree = "<group>"; };
+		BFD255A1184BF2BB00DB23DD /* Gratatouille_head2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gratatouille_head2.png; sourceTree = "<group>"; };
+		BFD255A3184BF41800DB23DD /* qualityofservice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qualityofservice2.png; sourceTree = "<group>"; };
+		BFD255A5184BF95D00DB23DD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		BFD255A7184BFDA700DB23DD /* gold button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold button.png"; sourceTree = "<group>"; };
+		BFF3291F184B807400265EFE /* Gratatouille_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gratatouille_head.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF916524184821E40034DBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91652D184821E50034DBA1 /* CoreGraphics.framework in Frameworks */,
+				BF916531184821E50034DBA1 /* CoreData.framework in Frameworks */,
+				BF91652F184821E50034DBA1 /* UIKit.framework in Frameworks */,
+				BF91652B184821E50034DBA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF91654D184821E50034DBA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF916552184821E50034DBA1 /* XCTest.framework in Frameworks */,
+				BF916555184821E50034DBA1 /* CoreData.framework in Frameworks */,
+				BF916554184821E50034DBA1 /* UIKit.framework in Frameworks */,
+				BF916553184821E50034DBA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF91651E184821E40034DBA1 = {
+			isa = PBXGroup;
+			children = (
+				BF82365C18C5766800B9C1D9 /* 1inch2.png */,
+				BF82365818C5719000B9C1D9 /* KBmobile2App.png */,
+				BF99F8C818C5694500BB35D9 /* gratback2.png */,
+				BF916532184821E50034DBA1 /* Gratatouille */,
+				BF916558184821E50034DBA1 /* GratatouilleTests */,
+				BF916529184821E50034DBA1 /* Frameworks */,
+				BF916528184821E50034DBA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF916528184821E50034DBA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF916527184821E50034DBA1 /* Gratatouille.app */,
+				BF916550184821E50034DBA1 /* GratatouilleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF916529184821E50034DBA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF91652A184821E50034DBA1 /* Foundation.framework */,
+				BF91652C184821E50034DBA1 /* CoreGraphics.framework */,
+				BF91652E184821E50034DBA1 /* UIKit.framework */,
+				BF916530184821E50034DBA1 /* CoreData.framework */,
+				BF916551184821E50034DBA1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF916532184821E50034DBA1 /* Gratatouille */ = {
+			isa = PBXGroup;
+			children = (
+				BFD255A5184BF95D00DB23DD /* 3.png */,
+				BFD255A7184BFDA700DB23DD /* gold button.png */,
+				BFD255A1184BF2BB00DB23DD /* Gratatouille_head2.png */,
+				BFD255A3184BF41800DB23DD /* qualityofservice2.png */,
+				BFD2559F184BC41400DB23DD /* gratback2.png */,
+				BF42056E184ABC8A00F9B7AE /* waitersm.png */,
+				BFF3291F184B807400265EFE /* Gratatouille_head.png */,
+				BF42056C184ABC5A00F9B7AE /* happy-face.png */,
+				BF420560184A454000F9B7AE /* 1.png */,
+				BF420561184A454000F9B7AE /* 5.png */,
+				BF42056A184AB43F00F9B7AE /* qualityofservice.png */,
+				BF91653B184821E50034DBA1 /* AppDelegate.h */,
+				BF91653C184821E50034DBA1 /* AppDelegate.m */,
+				BF91653E184821E50034DBA1 /* Main.storyboard */,
+				BF916544184821E50034DBA1 /* MainViewController.h */,
+				BF916545184821E50034DBA1 /* MainViewController.m */,
+				BF916547184821E50034DBA1 /* FlipsideViewController.h */,
+				BF916548184821E50034DBA1 /* FlipsideViewController.m */,
+				BF91654A184821E50034DBA1 /* Images.xcassets */,
+				BF916541184821E50034DBA1 /* Gratatouille.xcdatamodeld */,
+				BF916533184821E50034DBA1 /* Supporting Files */,
+			);
+			path = Gratatouille;
+			sourceTree = "<group>";
+		};
+		BF916533184821E50034DBA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF916534184821E50034DBA1 /* Gratatouille-Info.plist */,
+				BF916535184821E50034DBA1 /* InfoPlist.strings */,
+				BF916538184821E50034DBA1 /* main.m */,
+				BF91653A184821E50034DBA1 /* Gratatouille-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF916558184821E50034DBA1 /* GratatouilleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF91655E184821E50034DBA1 /* GratatouilleTests.m */,
+				BF916559184821E50034DBA1 /* Supporting Files */,
+			);
+			path = GratatouilleTests;
+			sourceTree = "<group>";
+		};
+		BF916559184821E50034DBA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF91655A184821E50034DBA1 /* GratatouilleTests-Info.plist */,
+				BF91655B184821E50034DBA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF916526184821E40034DBA1 /* Gratatouille */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF916562184821E50034DBA1 /* Build configuration list for PBXNativeTarget "Gratatouille" */;
+			buildPhases = (
+				BF916523184821E40034DBA1 /* Sources */,
+				BF916524184821E40034DBA1 /* Frameworks */,
+				BF916525184821E40034DBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gratatouille;
+			productName = Gratatouille;
+			productReference = BF916527184821E50034DBA1 /* Gratatouille.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF91654F184821E50034DBA1 /* GratatouilleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF916565184821E50034DBA1 /* Build configuration list for PBXNativeTarget "GratatouilleTests" */;
+			buildPhases = (
+				BF91654C184821E50034DBA1 /* Sources */,
+				BF91654D184821E50034DBA1 /* Frameworks */,
+				BF91654E184821E50034DBA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF916557184821E50034DBA1 /* PBXTargetDependency */,
+			);
+			name = GratatouilleTests;
+			productName = GratatouilleTests;
+			productReference = BF916550184821E50034DBA1 /* GratatouilleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF91651F184821E40034DBA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = DisruptiveDevelopment;
+				TargetAttributes = {
+					BF916526184821E40034DBA1 = {
+						DevelopmentTeam = QAJNCNA729;
+					};
+					BF91654F184821E50034DBA1 = {
+						TestTargetID = BF916526184821E40034DBA1;
+					};
+				};
+			};
+			buildConfigurationList = BF916522184821E40034DBA1 /* Build configuration list for PBXProject "Gratatouille" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF91651E184821E40034DBA1;
+			productRefGroup = BF916528184821E50034DBA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF916526184821E40034DBA1 /* Gratatouille */,
+				BF91654F184821E50034DBA1 /* GratatouilleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF916525184821E40034DBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD255A8184BFDA700DB23DD /* gold button.png in Resources */,
+				BF99F8C918C5694500BB35D9 /* gratback2.png in Resources */,
+				BF91654B184821E50034DBA1 /* Images.xcassets in Resources */,
+				BFD255A4184BF41800DB23DD /* qualityofservice2.png in Resources */,
+				BF420563184A454000F9B7AE /* 5.png in Resources */,
+				BF42056D184ABC5A00F9B7AE /* happy-face.png in Resources */,
+				BF82365D18C5766800B9C1D9 /* 1inch2.png in Resources */,
+				BFD255A0184BC41400DB23DD /* gratback2.png in Resources */,
+				BF42056F184ABC8A00F9B7AE /* waitersm.png in Resources */,
+				BF420562184A454000F9B7AE /* 1.png in Resources */,
+				BF916537184821E50034DBA1 /* InfoPlist.strings in Resources */,
+				BFD255A6184BF95D00DB23DD /* 3.png in Resources */,
+				BF82365918C5719000B9C1D9 /* KBmobile2App.png in Resources */,
+				BF42056B184AB43F00F9B7AE /* qualityofservice.png in Resources */,
+				BFD255A2184BF2BB00DB23DD /* Gratatouille_head2.png in Resources */,
+				BF916540184821E50034DBA1 /* Main.storyboard in Resources */,
+				BFF32920184B807400265EFE /* Gratatouille_head.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF91654E184821E50034DBA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91655D184821E50034DBA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF916523184821E40034DBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF916543184821E50034DBA1 /* Gratatouille.xcdatamodeld in Sources */,
+				BF91653D184821E50034DBA1 /* AppDelegate.m in Sources */,
+				BF916539184821E50034DBA1 /* main.m in Sources */,
+				BF916549184821E50034DBA1 /* FlipsideViewController.m in Sources */,
+				BF916546184821E50034DBA1 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF91654C184821E50034DBA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91655F184821E50034DBA1 /* GratatouilleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF916557184821E50034DBA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF916526184821E40034DBA1 /* Gratatouille */;
+			targetProxy = BF916556184821E50034DBA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF916535184821E50034DBA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF916536184821E50034DBA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF91653E184821E50034DBA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF91653F184821E50034DBA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF91655B184821E50034DBA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF91655C184821E50034DBA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF916560184821E50034DBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Keith Bailly's CA";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Keith Bailly's CA";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF916561184821E50034DBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Keith Bailly's CA";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Keith Bailly's CA";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF916563184821E50034DBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Keith Bailly (QAJNCNA729)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Keith Bailly (QAJNCNA729)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gratatouille/Gratatouille-Prefix.pch";
+				INFOPLIST_FILE = "Gratatouille/Gratatouille-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DE473B95-A694-4A08-9C13-196C0E185E95";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF916564184821E50034DBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Keith Bailly (QAJNCNA729)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Keith Bailly (QAJNCNA729)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gratatouille/Gratatouille-Prefix.pch";
+				INFOPLIST_FILE = "Gratatouille/Gratatouille-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DE473B95-A694-4A08-9C13-196C0E185E95";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF916566184821E50034DBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gratatouille.app/Gratatouille";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gratatouille/Gratatouille-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GratatouilleTests/GratatouilleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF916567184821E50034DBA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gratatouille.app/Gratatouille";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gratatouille/Gratatouille-Prefix.pch";
+				INFOPLIST_FILE = "GratatouilleTests/GratatouilleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF916522184821E40034DBA1 /* Build configuration list for PBXProject "Gratatouille" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF916560184821E50034DBA1 /* Debug */,
+				BF916561184821E50034DBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF916562184821E50034DBA1 /* Build configuration list for PBXNativeTarget "Gratatouille" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF916563184821E50034DBA1 /* Debug */,
+				BF916564184821E50034DBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF916565184821E50034DBA1 /* Build configuration list for PBXNativeTarget "GratatouilleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF916566184821E50034DBA1 /* Debug */,
+				BF916567184821E50034DBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF916541184821E50034DBA1 /* Gratatouille.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF916542184821E50034DBA1 /* Gratatouille.xcdatamodel */,
+			);
+			currentVersion = BF916542184821E50034DBA1 /* Gratatouille.xcdatamodel */;
+			path = Gratatouille.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF91651F184821E40034DBA1 /* Project object */;
+}
