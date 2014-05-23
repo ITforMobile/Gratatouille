@@ -22,6 +22,35 @@
 
 
 
+
+- (void)bannerViewDidLoadAd:(ADBannerView *)banner  {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:1];
+    [UIView commitAnimations];
+    
+}
+
+-(void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error {
+    [UIView beginAnimations:nil context:NULL];
+    [UIView setAnimationDuration:1];
+    [banner setAlpha:0];
+    [UIView commitAnimations];
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -(IBAction)calculate {
     float A = ( [ticket.text floatValue]);
     float Z = A * .15;
@@ -38,7 +67,8 @@
     
     newtip.text = [NSString stringWithFormat:@"%.2F ",(slider.value*A)];
     percent.text = [NSString stringWithFormat:@"%.2F",(slider.value*100)];
-    
+    total.text = [NSString stringWithFormat:@"%.2F ",((slider.value*A)+A)];
+
     
 
 

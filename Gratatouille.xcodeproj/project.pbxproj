@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2A28DA192FBD3500642734 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2A28D9192FBD3500642734 /* iAd.framework */; };
+		BF2A28DC192FC3F700642734 /* Gratatouille_head.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2A28DB192FC3F700642734 /* Gratatouille_head.png */; };
 		BF420562184A454000F9B7AE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF420560184A454000F9B7AE /* 1.png */; };
 		BF420563184A454000F9B7AE /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = BF420561184A454000F9B7AE /* 5.png */; };
 		BF42056B184AB43F00F9B7AE /* qualityofservice.png in Resources */ = {isa = PBXBuildFile; fileRef = BF42056A184AB43F00F9B7AE /* qualityofservice.png */; };
@@ -38,7 +40,6 @@
 		BFD255A4184BF41800DB23DD /* qualityofservice2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD255A3184BF41800DB23DD /* qualityofservice2.png */; };
 		BFD255A6184BF95D00DB23DD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD255A5184BF95D00DB23DD /* 3.png */; };
 		BFD255A8184BFDA700DB23DD /* gold button.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD255A7184BFDA700DB23DD /* gold button.png */; };
-		BFF32920184B807400265EFE /* Gratatouille_head.png in Resources */ = {isa = PBXBuildFile; fileRef = BFF3291F184B807400265EFE /* Gratatouille_head.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF2A28D9192FBD3500642734 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		BF2A28DB192FC3F700642734 /* Gratatouille_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gratatouille_head.png; sourceTree = "<group>"; };
 		BF420560184A454000F9B7AE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		BF420561184A454000F9B7AE /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		BF42056A184AB43F00F9B7AE /* qualityofservice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qualityofservice.png; sourceTree = "<group>"; };
@@ -88,7 +91,6 @@
 		BFD255A3184BF41800DB23DD /* qualityofservice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qualityofservice2.png; sourceTree = "<group>"; };
 		BFD255A5184BF95D00DB23DD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		BFD255A7184BFDA700DB23DD /* gold button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold button.png"; sourceTree = "<group>"; };
-		BFF3291F184B807400265EFE /* Gratatouille_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gratatouille_head.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2A28DA192FBD3500642734 /* iAd.framework in Frameworks */,
 				BF91652D184821E50034DBA1 /* CoreGraphics.framework in Frameworks */,
 				BF916531184821E50034DBA1 /* CoreData.framework in Frameworks */,
 				BF91652F184821E50034DBA1 /* UIKit.framework in Frameworks */,
@@ -121,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				BF82365C18C5766800B9C1D9 /* 1inch2.png */,
+				BF2A28DB192FC3F700642734 /* Gratatouille_head.png */,
 				BF82365818C5719000B9C1D9 /* KBmobile2App.png */,
 				BF99F8C818C5694500BB35D9 /* gratback2.png */,
 				BF916532184821E50034DBA1 /* Gratatouille */,
@@ -142,6 +146,7 @@
 		BF916529184821E50034DBA1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BF2A28D9192FBD3500642734 /* iAd.framework */,
 				BF91652A184821E50034DBA1 /* Foundation.framework */,
 				BF91652C184821E50034DBA1 /* CoreGraphics.framework */,
 				BF91652E184821E50034DBA1 /* UIKit.framework */,
@@ -160,7 +165,6 @@
 				BFD255A3184BF41800DB23DD /* qualityofservice2.png */,
 				BFD2559F184BC41400DB23DD /* gratback2.png */,
 				BF42056E184ABC8A00F9B7AE /* waitersm.png */,
-				BFF3291F184B807400265EFE /* Gratatouille_head.png */,
 				BF42056C184ABC5A00F9B7AE /* happy-face.png */,
 				BF420560184A454000F9B7AE /* 1.png */,
 				BF420561184A454000F9B7AE /* 5.png */,
@@ -295,6 +299,7 @@
 				BF42056D184ABC5A00F9B7AE /* happy-face.png in Resources */,
 				BF82365D18C5766800B9C1D9 /* 1inch2.png in Resources */,
 				BFD255A0184BC41400DB23DD /* gratback2.png in Resources */,
+				BF2A28DC192FC3F700642734 /* Gratatouille_head.png in Resources */,
 				BF42056F184ABC8A00F9B7AE /* waitersm.png in Resources */,
 				BF420562184A454000F9B7AE /* 1.png in Resources */,
 				BF916537184821E50034DBA1 /* InfoPlist.strings in Resources */,
@@ -303,7 +308,6 @@
 				BF42056B184AB43F00F9B7AE /* qualityofservice.png in Resources */,
 				BFD255A2184BF2BB00DB23DD /* Gratatouille_head2.png in Resources */,
 				BF916540184821E50034DBA1 /* Main.storyboard in Resources */,
-				BFF32920184B807400265EFE /* Gratatouille_head.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,13 +459,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Keith Bailly (QAJNCNA729)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Keith Bailly (QAJNCNA729)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gratatouille/Gratatouille-Prefix.pch";
 				INFOPLIST_FILE = "Gratatouille/Gratatouille-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "DE473B95-A694-4A08-9C13-196C0E185E95";
+				PROVISIONING_PROFILE = "1C9263E9-85F5-460B-84ED-FB7287F50422";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -471,13 +475,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Keith Bailly (QAJNCNA729)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Keith Bailly (QAJNCNA729)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gratatouille/Gratatouille-Prefix.pch";
 				INFOPLIST_FILE = "Gratatouille/Gratatouille-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "DE473B95-A694-4A08-9C13-196C0E185E95";
+				PROVISIONING_PROFILE = "1C9263E9-85F5-460B-84ED-FB7287F50422";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
